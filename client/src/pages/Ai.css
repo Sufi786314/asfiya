@@ -1,0 +1,98 @@
+.ai-container {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fefefe;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.ai-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #4CAF50;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+.ai-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+}
+
+textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  min-height: 100px;
+  resize: vertical;
+}
+
+textarea:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.submit-button {
+  padding: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.error-message, .ai-response {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.ai-response {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.ai-tips {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.ai-tips ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.ai-tips ul li {
+  margin-bottom: 10px;
+}

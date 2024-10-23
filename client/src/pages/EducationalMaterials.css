@@ -1,0 +1,66 @@
+.educational-materials-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro-text {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555; /* Slightly muted text color */
+  }
+  
+  .topics-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .topic-item {
+    background-color: #fff; /* White background for topic items */
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .topic-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .topic-item h3 {
+    color: #007bff; /* Brand color */
+    font-size: 1.5rem;
+  }
+  
+  .additional-resources {
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #e7f3ff; /* Light blue background for emphasis */
+    border-radius: 5px;
+  }
+  
+  .additional-resources h3 {
+    margin-top: 10px;
+    color: #0056b3; /* Darker blue for headings */
+  }
+  
+  .download-button, .register-button {
+    background-color: #007bff; /* Brand color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .download-button:hover, .register-button:hover {
+    background-color: #0056b3; /* Darker on hover */
+  }
+  

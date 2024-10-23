@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light background for contrast */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .my-page-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading Styles */
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0056b3; /* Darker brand color */
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  h2 {
+    color: #333;
+    margin: 20px 0 10px;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #e0e0e0; /* Underline effect */
+    padding-bottom: 5px;
+  }
+  
+  /* Section Styles */
+  section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fafafa;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* List Styles */
+  .internship-list, .counseling-list, .resources-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .internship-item, .counseling-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #007bff; /* Brand color */
+    border-radius: 5px;
+    background-color: #e7f3ff; /* Light background for items */
+    transition: box-shadow 0.3s;
+  }
+  
+  .internship-item:hover, .counseling-item:hover {
+    box-shadow: 0 4px 20px rgba(0, 123, 255, 0.3); /* Hover effect */
+  }
+  
+  .internship-item h3, .counseling-item h3 {
+    margin: 0 0 5px 0;
+    color: #0056b3; /* Darker brand color */
+  }
+  
+  /* Resource Links */
+  .resources-list li {
+    margin: 10px 0;
+  }
+  
+  .resources-list a {
+    color: #007bff; /* Brand color */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  .resources-list a:hover {
+    color: #0056b3; /* Darker on hover */
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .my-page-container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .internship-item, .counseling-item {
+      padding: 10px;
+    }
+  }
+  
